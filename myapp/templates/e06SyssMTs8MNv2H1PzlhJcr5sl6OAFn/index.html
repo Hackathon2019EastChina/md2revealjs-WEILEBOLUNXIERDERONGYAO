@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/reveal.js/3.8.0/css/reset.min.css"/>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/reveal.js/3.8.0/css/reveal.min.css"/>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/reveal.js/3.8.0/css/theme/black.min.css"/>
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/reveal.js/3.8.0/lib/css/monokai.min.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = window.location.search.match(/print-pdf/gi) ?
+            "https://cdn.bootcss.com/reveal.js/3.8.0/css/print/pdf.min.css" :
+            "https://cdn.bootcss.com/reveal.js/3.8.0/css/print/paper.min.css";
+        document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <section>
+            <section data-markdown>
+                <script type="text/template">
+                    # Compiler midterm
+
+                </script>
+            </section>
+        </section>
+        <section>
+            <font size="22"><p style="text-align: left;"> 1 Compiler midterm</p>
+            </font>
+            <section data-markdown>
+                <script type="text/template">
+                    $$First(\alpha)={a \mid \alpha\implies^\star a .... }$$
+
+                </script>
+            </section>
+
+        </section>
+    </div>
+</div>
+
+<script src="https://cdn.bootcss.com/reveal.js/3.8.0/js/reveal.min.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            {
+                src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/markdown/marked.js"
+            },
+            {
+                src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/markdown/markdown.min.js"
+            },
+            {
+                src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/notes/notes.min.js",
+                async: true
+            },
+            {
+                src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/math/math.min.js",
+                async: true
+            },
+            {
+                src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/highlight/highlight.min.js",
+                async: true
+            },
+            {
+                src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js",
+                async: true
+            }
+        ]
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+    </div>
+  </div>
+
+  <script src="https://cdn.bootcss.com/reveal.js/3.8.0/js/reveal.min.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      dependencies: [{
+          src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/markdown/markdown.min.js"
+        },
+        {
+          src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/markdown/markdown.min.js"
+        },
+        {
+          src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/notes/notes.min.js",
+          async: true
+        },
+        {
+          src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/math/math.min.js",
+          async: true
+        },
+        {
+          src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/highlight/highlight.min.js",
+          async: true
+        },
+        {
+          src: "https://cdn.bootcss.com/reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js",
+          async: true
+        }
+      ]
+    });
+  </script>
+</body>
+
+</html>
